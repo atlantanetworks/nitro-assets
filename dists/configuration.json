@@ -1,0 +1,577 @@
+{
+    "socket.url": "wss://big.atlantacdn.co:2087/",
+	"vps.url": "//images.habblive.net/BETA/assets",
+	"nitro.url": "//habblive.in/NitroClientBeta",
+    "asset.url": "//images.habblive.net/BETA/assets",
+	"localassets.url": "//habblive.in/assets",
+    "image.library.url": "//images.habblive.com/c_imagenes/",
+    "image.library.notifications.url": "//images.habblive.com/c_imagenes/notifications/%image%.png",
+    "achievements.images.url": "//images.habblive.com/c_imagenes/Quests/%image%.png",
+    "thumbnails.url": "//images.habblive.com/c_imagenes/camera/thumbnails/%thumbnail%.png",
+	"cdn.url": "//images.habblive.net",
+    "images.url": "//images.habblive.net/BETA/assets/images",
+	"extra_data_service_url": "//atlantaphotography.site/public/furni/habblive/",
+    "gamedata.url": "//images.habblive.net/BETA/assets/gamedata",
+    "sounds.url": "//habblive.in/B/assets/sounds",
+	"localrooms.url": "//images.habblive.net/BETA/assets/images/habblive/rooms",
+    "external.texts.url": "//images.habblive.net/BETA/gamedata/json/external_flash_texts_livee.json",
+    "furnidata.url": "//images.habblive.net/BETA/gamedata/json/FurnitureData_setp_18.json",
+	"productdata.url": "//images.habblive.net/BETA/gamedata/json/ProductData.json",
+    "avatar.actions.url": "//images.habblive.net/BETA/gamedata/json/HabboAvatarActions_1.json",
+    "avatar.figuredata.url": "//images.habblive.net/BETA/gamedata/habbo/FigureDatateste_nitro.json",
+    "avatar.figuremap.url": "//images.habblive.net/BETA/gamedata/json/FigureMap_nitro.json",
+    "avatar.effectmap.url": "//images.habblive.net/BETA/gamedata/json/EffectMap_100.json",
+    "avatar.asset.url": "//images.habblive.net/BETA/nitro_clothes/%libname%.nitro",
+    "avatar.asset.effect.url": "//images.habblive.net/BETA/effect_nitro/%libname%.nitro",
+    "navigator.slider.enabled": true,
+    "furni.extras.url": "//images.habblive.net/BETA/assets/images/furniextras/%image%.png",
+	"url.prefix": "",
+    "chat.viewer.height.percentage": 0.40,
+    "navigator.slider.content": [
+        {
+            "title": "Recepção do Hotel",
+            "image": "https://i.imgur.com/lTrokgx.png",
+            "roomId": 6386423
+        },
+        {
+            "title": "Picnic",
+            "image": "https://cdn.discordapp.com/attachments/736997077124513982/798902523347730432/unknown.png",
+            "roomId": 6386430
+        },
+        {
+            "title": "Aquele Cafezinho",
+            "image": "https://i.imgur.com/R7SKjmG.png",
+            "roomId": 203
+        }
+    ],
+    "hotelview.imagesa": {
+        "background": "//images.habblive.com/imagesCMS/reception_flathotel_stretch.png",
+        "background.colour": "#8cddff",
+        "sun": "",
+        "drape": "",
+        "left": "//images.habblive.com/ImagesCms/live01.png",
+        "right": "//images.habblive.com/ImagesCms/view_background_right.png",
+        "right.repeat": ""
+    },
+	"hotelview.images": {
+    "background": "//images.habblive.com/imagesCMS/reception_flathotel_stretch.png",
+    "background.colour": "#8cddff",
+    "sun": "",
+    "drape": "",
+    "left": "//images.habblive.com/ImagesCms/live01.png",
+    "right": "//images.habblive.com/ImagesCms/view_background_right.png",
+    "right.repeat": "",
+    "carousel1": "${image.library.url}reception/mystery_box_teaser.png",
+    "carousel2": "${image.library.url}fb_news.png",
+    "carousel3": "${image.library.url}dc_news.png",
+	"carousel4": "${image.library.url}ig_news.png"
+	},
+    "achievements.unseen.ignored": ["ACH_AllTimeHotelPresence"],
+    "avatareditor.show.clubitems.dimmed": true,
+    "avatareditor.show.clubitems.first": true,
+	"chat.history.max.items": 100,
+	"furni.rotation.bounce.steps": 8,
+    "furni.rotation.bounce.height": 0.0625,
+    "system.animation.fps": 24,
+    "system.limits.fps": true,
+    "system.dispatcher.log": false,
+    "displayed.currency.types": [
+        -1,
+        104,
+        5,
+        0,
+		103
+    ],
+    "system.packet.log": false,
+	"system.packet.log" :false,
+    "system.pong.manually": true,
+    "system.pong.interval.ms": 20000,
+    "avatar.mandatory.libraries": [
+        "bd:1",
+        "li:0"
+    ],
+    "avatar.mandatory.effect.libraries": [
+        "dance.1",
+        "dance.2",
+        "dance.3",
+        "dance.4"
+    ],
+    "pet.asset.url": "//images.habblive.net/BETA/pets/%libname%.nitro",
+    "pet.types": [
+        "dog",
+        "cat",
+        "croco",
+        "terrier",
+        "bear",
+        "pig",
+        "lion",
+        "rhino",
+        "spider",
+        "turtle",
+        "chicken",
+        "frog",
+        "dragon",
+        "monster",
+        "monkey",
+        "horse",
+        "monsterplant",
+        "bunnyeaster",
+        "bunnyevil",
+        "bunnydepressed",
+        "bunnylove",
+        "pigeongood",
+        "pigeonevil",
+        "demonmonkey",
+        "bearbaby",
+        "terrierbaby",
+        "gnome",
+        "bebesp",
+        "penguin",
+        "elephants",
+        "pterosaur",
+        "terrierbaby",
+        "babyBH",
+        "velociraptor",
+        "bunnytdid01",
+        "pikachupet1",
+        "mario_viter_hh",
+        "haloompa",
+        "fools",
+        "kittenbaby",
+        "pigletbaby",
+        "puppybaby",
+        "cow"
+    ],
+    "furni.asset.url": "//images.habblive.net/BETA/furniture_habblive_altanta/%libname%.nitro",
+    "furni.asset.icon.url": "//images.habblive.net/BETA/icons_habblive_atlanta/%libname%%param%.png",
+    "room.asset.url": "//images.habblive.net/BETA/assets/room/%libname%/%libname%.json",
+    "badge.asset.url": "//images.habblive.com/c_imagenes/album1584/%badgename%.gif",
+    "badge.asset.group.url": "//images.habblive.net/group-badge/%badgedata%",
+    "currency.asset.icon.url": "//habblive.in/assets/images/wallet/icons/%type%.png",
+    "catalog.asset.url": "//images.habblive.com/c_imagenes/catalogue",
+    "catalog.asset.image.url": "//images.habblive.com/c_imagenes/catalogue/%name%.gif",
+    "catalog.asset.icon.url": "//images.habblive.com/c_imagenes/catalogue/icon_%name%.png",
+    "chat.input.maxlength": 100,
+    "chat.styles.disabled": [],
+     "chat.styles": [
+        {
+            "styleId": 0,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 1,
+            "minRank": 10,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 2,
+            "minRank": 10,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 3,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 4,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 5,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 6,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 7,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 8,
+            "minRank": 0,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 9,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 10,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 11,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 12,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 13,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 14,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 15,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 16,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 17,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 18,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 19,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 20,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 21,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 22,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 23,
+            "minRank": 5,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 24,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 25,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 26,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 27,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 28,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 29,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 30,
+            "minRank": 0,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 31,
+            "minRank": 10,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 32,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 33,
+            "minRank": 10,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 34,
+            "minRank": 10,
+            "isSystemStyle": true,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 35,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 36,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+        {
+            "styleId": 37,
+            "minRank": 4,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": true
+        },
+        {
+            "styleId": 38,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 40,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 41,
+            "minRank": 3,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 42,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 43,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 44,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 45,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 46,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 47,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 48,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 49,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 50,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 51,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 52,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 53,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        },
+		{
+            "styleId": 54,
+            "minRank": 0,
+            "isSystemStyle": false,
+            "isHcOnly": false,
+            "isAmbassadorOnly": false
+        }
+    ],
+
+   "avatar.default.figuredata": {"palettes":[{"id":1,"colors":[{"id":99999,"index":1001,"club":0,"selectable":false,"hexCode":"DDDDDD"},{"id":99998,"index":1001,"club":0,"selectable":false,"hexCode":"FAFAFA"}]},{"id":3,"colors":[{"id":10001,"index":1001,"club":0,"selectable":false,"hexCode":"EEEEEE"},{"id":10002,"index":1002,"club":0,"selectable":false,"hexCode":"FA3831"},{"id":10003,"index":1003,"club":0,"selectable":false,"hexCode":"FD92A0"},{"id":10004,"index":1004,"club":0,"selectable":false,"hexCode":"2AC7D2"},{"id":10005,"index":1005,"club":0,"selectable":false,"hexCode":"35332C"},{"id":10006,"index":1006,"club":0,"selectable":false,"hexCode":"EFFF92"},{"id":10007,"index":1007,"club":0,"selectable":false,"hexCode":"C6FF98"},{"id":10008,"index":1008,"club":0,"selectable":false,"hexCode":"FF925A"},{"id":10009,"index":1009,"club":0,"selectable":false,"hexCode":"9D597E"},{"id":10010,"index":1010,"club":0,"selectable":false,"hexCode":"B6F3FF"},{"id":10011,"index":1011,"club":0,"selectable":false,"hexCode":"6DFF33"},{"id":10012,"index":1012,"club":0,"selectable":false,"hexCode":"3378C9"},{"id":10013,"index":1013,"club":0,"selectable":false,"hexCode":"FFB631"},{"id":10014,"index":1014,"club":0,"selectable":false,"hexCode":"DFA1E9"},{"id":10015,"index":1015,"club":0,"selectable":false,"hexCode":"F9FB32"},{"id":10016,"index":1016,"club":0,"selectable":false,"hexCode":"CAAF8F"},{"id":10017,"index":1017,"club":0,"selectable":false,"hexCode":"C5C6C5"},{"id":10018,"index":1018,"club":0,"selectable":false,"hexCode":"47623D"},{"id":10019,"index":1019,"club":0,"selectable":false,"hexCode":"8A8361"},{"id":10020,"index":1020,"club":0,"selectable":false,"hexCode":"FF8C33"},{"id":10021,"index":1021,"club":0,"selectable":false,"hexCode":"54C627"},{"id":10022,"index":1022,"club":0,"selectable":false,"hexCode":"1E6C99"},{"id":10023,"index":1023,"club":0,"selectable":false,"hexCode":"984F88"},{"id":10024,"index":1024,"club":0,"selectable":false,"hexCode":"77C8FF"},{"id":10025,"index":1025,"club":0,"selectable":false,"hexCode":"FFC08E"},{"id":10026,"index":1026,"club":0,"selectable":false,"hexCode":"3C4B87"},{"id":10027,"index":1027,"club":0,"selectable":false,"hexCode":"7C2C47"},{"id":10028,"index":1028,"club":0,"selectable":false,"hexCode":"D7FFE3"},{"id":10029,"index":1029,"club":0,"selectable":false,"hexCode":"8F3F1C"},{"id":10030,"index":1030,"club":0,"selectable":false,"hexCode":"FF6393"},{"id":10031,"index":1031,"club":0,"selectable":false,"hexCode":"1F9B79"},{"id":10032,"index":1032,"club":0,"selectable":false,"hexCode":"FDFF33"}]}],"setTypes":[{"type":"hd","paletteId":1,"mandatory_f_0":true,"mandatory_f_1":true,"mandatory_m_0":true,"mandatory_m_1":true,"sets":[{"id":99999,"gender":"U","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":1,"type":"bd","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"hd","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"lh","colorable":true,"index":0,"colorindex":1},{"id":1,"type":"rh","colorable":true,"index":0,"colorindex":1}]}]},{"type":"bds","paletteId":1,"mandatory_f_0":false,"mandatory_f_1":false,"mandatory_m_0":false,"mandatory_m_1":false,"sets":[{"id":10001,"gender":"U","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10001,"type":"bds","colorable":true,"index":0,"colorindex":1},{"id":10001,"type":"lhs","colorable":true,"index":0,"colorindex":1},{"id":10001,"type":"rhs","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"bd"},{"partType":"rh"},{"partType":"lh"}]}]},{"type":"ss","paletteId":3,"mandatory_f_0":false,"mandatory_f_1":false,"mandatory_m_0":false,"mandatory_m_1":false,"sets":[{"id":10010,"gender":"F","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10001,"type":"ss","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"ch"},{"partType":"lg"},{"partType":"ca"},{"partType":"wa"},{"partType":"sh"},{"partType":"ls"},{"partType":"rs"},{"partType":"lc"},{"partType":"rc"},{"partType":"cc"},{"partType":"cp"}]},{"id":10011,"gender":"M","club":0,"colorable":true,"selectable":false,"preselectable":false,"sellable":false,"parts":[{"id":10002,"type":"ss","colorable":true,"index":0,"colorindex":1}],"hiddenLayers":[{"partType":"ch"},{"partType":"lg"},{"partType":"ca"},{"partType":"wa"},{"partType":"sh"},{"partType":"ls"},{"partType":"rs"},{"partType":"lc"},{"partType":"rc"},{"partType":"cc"},{"partType":"cp"}]}]}]},
+    "avatar.default.actions": {
+        "actions": [
+            {
+                "id": "Default",
+                "state": "std",
+                "precedence": 1000,
+                "main": true,
+                "isDefault": true,
+                "geometryType": "vertical",
+                "activePartSet": "figure",
+                "assetPartDefinition": "std"
+            }
+        ]
+    },
+    "preload.assets.urls": [
+        "${images.url}/additions/user_blowkiss.png",
+        "${images.url}/additions/user_idle_left_1.png",
+        "${images.url}/additions/user_idle_left_2.png",
+        "${images.url}/additions/user_idle_right_1.png",
+        "${images.url}/additions/user_idle_right_2.png",
+		"${images.url}/additions/user_muted.png",
+        "${images.url}/additions/user_muted_small.png",
+        "${images.url}/additions/user_typing.png",
+        "${images.url}/additions/number_1.png",
+        "${images.url}/additions/number_2.png",
+        "${images.url}/additions/number_3.png",
+        "${images.url}/additions/number_4.png",
+        "${images.url}/additions/number_5.png",
+		"${images.url}/additions/pet_experience_bubble.png",
+        "${images.url}/loading_icon.png",
+        "${images.url}/clear_icon.png",
+        "${images.url}/big_arrow.png"
+    ],
+	"modernuipower": {
+    "domainIsWrong": ""
+	},
+	"nitrohotel": {
+    "navigator": ""
+	}
+}
